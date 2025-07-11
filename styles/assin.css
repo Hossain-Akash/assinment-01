@@ -1,3 +1,18 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-hard {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 /* shared style */
 .button-bg{
     background-color: #4E47FF;
@@ -7,9 +22,9 @@
 /* header styes */
 header{
     background-image: url(../Assets/Hero-bg.png);
-    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 698px;
-    margin: 0 auto;
     margin-bottom: 120px;
 }
 nav{
@@ -17,6 +32,7 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    padding: 0 150px;
     
     
 }
@@ -51,6 +67,7 @@ nav button{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: #f5f8ff;
 }
 
 /* action section style */
@@ -106,4 +123,69 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
+}
+
+/* news-letter section style */
+.news-letter{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 127px;
+}
+.forms{
+    padding: 30px;
+}
+.news-letter h1{
+    font-weight: bold;
+    font-size: 97px;
+    width: 48%;
+    
+}
+.news-letter form{
+    width: 48%;
+}
+.form-title{
+    font-weight: 500px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+}
+ 
+input[type=Email] input[type=text] textarea{
+    width: 497px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.5);
+}
+.input-width{
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.news-letter button{
+    margin-top: 20px;
+}
+
+/* footer style */
+footer{
+    text-align: center;
+}
+footer h1{
+    color: rgba(78, 71, 255, 1);
+    font-weight: bolder;
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+footer p{
+    color: rgba(137, 135, 161, 1);
+}
+
+footer a{
+    text-decoration: none;
+    margin-right: 48px;
+    color: rgba(137, 135, 161, 1);
 }
