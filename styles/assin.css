@@ -251,3 +251,8 @@ footer a{
     justify-content: center;
     border-radius: 48px;
 }
+
+/* Hover */
+.btn-1:hover{
+    background-color: green;
+}
