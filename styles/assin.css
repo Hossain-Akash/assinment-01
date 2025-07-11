@@ -19,12 +19,16 @@
     color: white;
     border-radius: 10px;
 }
+body{
+    background-color: #f5f8ff;
+}
 /* header styes */
 header{
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 698px;
+    margin: 0 auto;
     margin-bottom: 120px;
 }
 nav{
@@ -32,7 +36,7 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 200px;
     
     
 }
@@ -67,7 +71,7 @@ nav button{
 main{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #f5f8ff;
+    /* background-color: #f5f8ff; */
 }
 
 /* action section style */
@@ -163,8 +167,9 @@ input[type=Email] input[type=text] textarea{
 }
 .input-width{
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 10px;
     border-radius: 10px;
+    border: none;
 }
 .news-letter button{
     margin-top: 20px;
@@ -173,6 +178,9 @@ input[type=Email] input[type=text] textarea{
 /* footer style */
 footer{
     text-align: center;
+    height: 428px;
+    padding: 10px 450px;
+    background-color: white;
 }
 footer h1{
     color: rgba(78, 71, 255, 1);
@@ -188,4 +196,58 @@ footer a{
     text-decoration: none;
     margin-right: 48px;
     color: rgba(137, 135, 161, 1);
+}
+
+/* review section */
+.review-main{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.review-contain{
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+.rating-person{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.rating-person img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+.date-color{
+    color: rgba(179, 179, 179, 1);
+}
+
+/* focus styles */
+.focus{
+    background-color: #FFFFFF;
+}
+.focus-content{
+    text-align: center;
+}
+.focus-content h3{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.focus-content p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.focus-content button{
+    padding: 12px 36px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.focus-img{
+    display: flex;
+    justify-content: center;
+    border-radius: 48px;
 }
