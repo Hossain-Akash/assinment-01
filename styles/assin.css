@@ -10,6 +10,7 @@ header{
     max-width: 1440px;
     height: 698px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 nav{
     display: flex;
@@ -44,6 +45,50 @@ nav button{
     border: none;
     width: 174px;
     height: 48px;
-    /* font-size: 16px; */
     font-weight: bold;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action section style */
+.action{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 220px;
+    align-items: center;
+}
+.action-container h3{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.action-container p{
+    font-size: 24px;
+    color: #252432;
+}
+.action-container button{
+    padding: 12px 36px;
+    border: none;
+}
+.action img{
+    border-radius: 48px;
+}
+
+/* productive user styles */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    height: 305px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.user-num{
+    font-weight: bold;
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
 }
